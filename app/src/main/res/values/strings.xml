@@ -1,0 +1,30 @@
+<resources>
+    <!--Archivo de recursos de texto en español-->
+    <string name="app_name">PMDM Tarea 2</string>
+    <string name="action_about">Acerca de...</string>
+    <string name="about_dialog_title">Acerca de...</string>
+    <string name="about_dialog_message">Aplicación desarrollada por Javier Coronilla Castellano. Versión 1.0.</string>
+    <string name="ok">OK</string>
+
+    <!--TEXTOS PERSONAJES-->
+    <string name="character_mario_name">Mario</string>
+    <string name="character_mario_description">Héroe del Reino Champiñón</string>
+    <string name="character_mario_abilities">Conocido por su valentía y habilidad para saltar alto y derrotar enemigos con su agilidad.</string>
+    <string name="character_luigi_name">Luigi</string>
+    <string name="character_luigi_description">Hermano de Mario</string>
+    <string name="character_luigi_abilities">Es algo tímido pero muy valiente. Destaca por sus saltos más altos y su papel en la lucha contra fantasmas.</string>
+    <string name="character_peach_name">Peach</string>
+    <string name="character_peach_description">Princesa del Reino Champiñón</string>
+    <string name="character_peach_abilities">Conocida por su bondad, su habilidad para planear con su vestido y ser la fuerza que une a su reino.</string>
+    <string name="character_toad_name">Toad</string>
+    <string name="character_toad_description">Habitante leal del Reino Champiñón</string>
+    <string name="character_toad_abilities">Es rápido y fuerte a pesar de su pequeño tamaño, siempre dispuesto a ayudar.</string>
+
+    <string name="snackbar_welcome_message">Bienvenidos al mundo de Mario</string>
+    <string name="toast_character_selected">Se ha seleccionado el personaje %1$s</string>
+    <string name="menu_home">Menú Principal</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_language">Idioma</string>
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="settings">Ajustes</string>
+</resources>

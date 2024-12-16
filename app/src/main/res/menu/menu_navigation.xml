@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--`menu`: Contenedor raíz para los elementos del menú de navegación lateral.-->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_home" />
+
+    <!--Elemento del menú para navegar a la pantalla principal (Home).
+    - `id`: Identificador único.
+    - `icon`: Ícono representativo del elemento, referenciado desde recursos gráficos.
+    - `title`: Título del elemento, definido en strings.xml.-->
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_settings" />
+
+    <!--Elemento del menú para acceder a la pantalla de configuraciones.-->
+
+    <item
+        android:id="@+id/nav_language"
+        android:icon="@drawable/ic_language"
+        android:title="@string/menu_language" />
+
+    <!--Elemento del menú para cambiar el idioma de la aplicación.-->
+
+</menu>

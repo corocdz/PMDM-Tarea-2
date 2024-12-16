@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--RelativeLayout: Contenedor que permite posicionar elementos relativos entre sí.
+    - `background`: Fondo blanco para la pantalla de inicio.-->
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_logo"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null" />
+
+    <!--ImageView: Muestra el logo de la aplicación en el centro de la pantalla.
+    - `layout_width` y `layout_height`: Ajusta el tamaño al contenido.
+    - `src`: Referencia al recurso gráfico del logo.
+    - `layout_centerInParent`: Centra la imagen en la pantalla.
+    - `contentDescription`: Atributo nulo, ya que no es esencial para accesibilidad en esta pantalla.-->
+
+</RelativeLayout>

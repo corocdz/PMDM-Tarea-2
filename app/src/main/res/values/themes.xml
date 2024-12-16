@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+     Archivo de temas para el modo claro (predeterminado)
+    `resources`: Contenedor para los estilos y temas.
+    `xmlns:tools`: Espacio de nombres para herramientas de desarrollo.
+    -->
+
+    <!-- Tema base -->
+    <style name="Base.Theme.PMDMTarea2" parent="Theme.Material3.DayNight.NoActionBar"> <!--`Base.Theme.PMDMTarea2`: Tema base que hereda de un tema prediseñado (Material3 con compatibilidad para modo día/noche y sin ActionBar). -->
+        <item name="colorPrimary">#850303</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Tema principal que extiende del tema base -->
+    <style name="Theme.PMDMTarea2" parent="Base.Theme.PMDMTarea2" />
+</resources>

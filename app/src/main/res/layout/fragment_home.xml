@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--CoordinatorLayout: Contenedor raíz para manejar elementos interactivos.
+    - `layout_width` y `layout_height`: El contenedor ocupa todo el espacio disponible.
+    - `xmlns`: Define los espacios de nombres necesarios para atributos personalizados.-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        tools:listitem="@layout/item_character" />
+
+    <!--RecyclerView: Muestra una lista de elementos desplazables.
+    - `id`: Identificador único.
+    - `layout_width` y `layout_height`: Ocupa todo el espacio disponible dentro del contenedor.
+    - `layout_margin`: Agrega un margen uniforme de 16dp alrededor.
+    - `tools:listitem`: Indica un diseño de ejemplo (item_character.xml) para las vistas de lista en el editor de diseño.-->
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

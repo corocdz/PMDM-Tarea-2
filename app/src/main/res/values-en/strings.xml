@@ -1,0 +1,30 @@
+<resources>
+    <!--Archivo de recursos de texto en inglés-->
+    <string name="app_name">PMDM Task 2</string>
+    <string name="action_about">About...</string> <!--Se podría aprovechar el mensaje de @action_about y @about_dialog_title, ya que son iguales, pero prefiero dejarlo así po r si en el futuro se quisiese cambiar para poder diferenciarlos.-->
+    <string name="about_dialog_title">About...</string>
+    <string name="about_dialog_message">Application developed by Javier Coronilla Castellano. Version 1.0.</string>
+    <string name="ok">OK</string>
+
+    <!--TEXTOS PERSONAJES-->
+    <string name="character_mario_name">Mario</string>
+    <string name="character_mario_description">Hero of the Mushroom Kingdom</string>
+    <string name="character_mario_abilities">Known for his bravery and his ability to jump high and defeat enemies with agility.</string>
+    <string name="character_luigi_name">Luigi</string>
+    <string name="character_luigi_description">Mario\'s brother</string>
+    <string name="character_luigi_abilities">A bit shy but very courageous. Known for his higher jumps and ghost-fighting skills.</string>
+    <string name="character_peach_name">Peach</string>
+    <string name="character_peach_description">Princess of the Mushroom Kingdom</string>
+    <string name="character_peach_abilities">Known for her kindness, her ability to glide with her dress, and being the heart of her kingdom.</string>
+    <string name="character_toad_name">Toad</string>
+    <string name="character_toad_description">Loyal resident of the Mushroom Kingdom</string>
+    <string name="character_toad_abilities">Fast and strong despite his small size, always ready to help.</string>
+
+    <string name="snackbar_welcome_message">Welcome to Mario\'s world</string>
+    <string name="toast_character_selected">Character %1$s selected</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_language">Language</string>
+    <string name="change_language">Change Language</string>
+    <string name="settings">Settings</string>
+</resources>

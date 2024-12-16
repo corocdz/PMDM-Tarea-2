@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <!--CardView: Contenedor que proporciona un efecto de tarjeta con sombra y bordes redondeados.
+    - `layout_width` y `layout_height`: La tarjeta ocupa todo el ancho disponible y ajusta su altura al contenido.
+    - `layout_margin`: Margen uniforme de 8dp alrededor de la tarjeta.
+    - `cardCornerRadius`: Bordes redondeados con un radio de 8dp.
+    - `cardElevation`: Altura de la sombra bajo la tarjeta (efecto de elevación).-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <!--LinearLayout: Contenedor vertical para los elementos de la tarjeta.
+        - `padding`: Relleno interno uniforme de 16dp.
+        - `background`: Fondo blanco para contrastar con el resto de la interfaz.-->
+
+        <ImageView
+            android:id="@+id/characterImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <!--ImageView: Muestra la imagen del personaje.
+        - `id`: Identificador único.
+        - `layout_width` y `layout_height`: Tamaño de 100x100dp.
+        - `layout_gravity`: Centra la imagen horizontalmente.
+        - `scaleType`: Ajusta la imagen para que ocupe todo el espacio disponible sin distorsión.-->
+
+        <TextView
+            android:id="@+id/characterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/CharacterName" />
+
+        <!--TextView: Muestra el nombre del personaje.
+       - `style`: Estilo personalizado para el texto, definido en styles.xml.
+       - `layout_marginTop`: Separación de 8dp respecto a la imagen.-->
+
+        <TextView
+            android:id="@+id/characterDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            style="@style/CharacterDetails" />
+
+        <!--TextView: Muestra la descripción del personaje.
+        - `layout_marginTop`: Separación de 4dp respecto al texto anterior.
+        - `style`: Aplica un estilo personalizado para el detalle del personaje.-->
+
+        <TextView
+            android:id="@+id/characterAbilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            style="@style/CharacterDetails" />
+
+        <!--TextView: Muestra las habilidades del personaje.
+        - `layout_marginTop`: Separación de 4dp respecto al texto anterior.
+        - `style`: Aplica un estilo personalizado para el detalle del personaje.-->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

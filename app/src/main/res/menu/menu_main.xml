@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--`menu`: Contenedor raíz para los elementos del menú.
+    - `xmlns:android` y `xmlns:app`: Definen los espacios de nombres necesarios para usar atributos específicos.-->
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/info_icon"
+        android:title="@string/about_dialog_title"
+        app:showAsAction="ifRoom" />
+
+    <!--`item`: Define un elemento del menú.
+   - `id`: Identificador único.
+   - `icon`: Ícono asociado al elemento, referencia a un recurso gráfico.
+   - `title`: Texto que se muestra en el menú, referenciado desde strings.xml.
+   - `showAsAction`: Especifica cuándo se debe mostrar el ícono en la barra de acción. `ifRoom` lo muestra si hay espacio disponible.
+   -->
+</menu>

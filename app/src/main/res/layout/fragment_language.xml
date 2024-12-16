@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LanguageFragment">
+
+    <!--ConstraintLayout: Contenedor raíz que permite posicionar elementos de forma flexible.
+    - `layout_width` y `layout_height`: Ocupa todo el espacio disponible.
+    - `tools:context`: Proporciona contexto en el editor para asociar el diseño con LanguageFragment.-->
+
+    <Switch
+        android:id="@+id/switchLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_language"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!--Switch: Interruptor que permite al usuario seleccionar entre dos estados.
+   - `id`: Identificador único.
+   - `layout_width` y `layout_height`: Tamaño ajustado al contenido.
+   - `android:text`: Texto mostrado junto al interruptor, definido en strings.xml como "Cambiar idioma".
+   - `layout_constraint*`: Centra el interruptor horizontalmente y lo posiciona 20dp por debajo del borde superior del contenedor.-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

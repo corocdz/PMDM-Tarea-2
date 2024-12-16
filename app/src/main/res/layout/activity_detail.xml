@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!--LinearLayout: Organiza los elementos de forma vertical.
+    - `layout_width` y `layout_height`: Ocupan todo el ancho y alto del padre.
+    - `orientation`: Configura la disposición vertical.
+    - `background`: Establece un color blanco de fondo.
+    - `padding`: Define un espacio interno de 16dp alrededor de los elementos.-->
+
+    <ImageView
+        android:id="@+id/imageViewDetail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <!--ImageView: Muestra la imagen del personaje.
+    - `id`: Identificador único.
+    - `layout_width` y `layout_height`: Define un tamaño cuadrado de 200dp.
+    - `layout_gravity`: Centra el elemento horizontalmente.
+    - `scaleType`: Ajusta la imagen al centro sin deformarla.-->
+
+    <TextView
+        android:id="@+id/textViewNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="@style/CharacterName" />
+
+    <!--TextView: Muestra el nombre del personaje.
+    - `id`: Identificador único.
+    - `layout_width` y `layout_height`: Ajusta el tamaño al contenido del texto.
+    - `layout_marginTop`: Agrega un margen superior de 16dp.
+    - `style`: Aplica un estilo predefinido para el nombre del personaje.-->
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/CharacterDetails" />
+
+    <!--TextView: Muestra la descripción del personaje.
+    - Configuración similar a `textViewNameDetail` salvo algún cambio (marginTop).
+    - Utiliza el estilo `CharacterDetails`.-->
+
+    <TextView
+        android:id="@+id/textViewAbilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/CharacterDetails" />
+
+    <!--TextView: Muestra las habilidades del personaje.
+    - Configuración idéntica a `textViewDescription`.-->
+
+</LinearLayout>

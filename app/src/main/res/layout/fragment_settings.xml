@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingsFragment">
+
+    <!--ConstraintLayout: Contenedor raíz que permite una colocación flexible de elementos.
+    - `layout_width` y `layout_height`: Ocupa todo el espacio disponible.
+    - `tools:context`: Proporciona contexto en el editor para asociar el diseño con SettingsFragment.-->
+
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_settings"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!--TextView: Muestra un texto estático ("Ajustes").
+    - `id`: Identificador único.
+    - `layout_width` y `layout_height`: Tamaño ajustado al contenido del texto.
+    - `android:text`: Texto definido en strings.xml como "Ajustes".
+    - `layout_constraint*`: Centra el texto horizontalmente y lo posiciona 20dp por debajo del borde superior del contenedor.-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

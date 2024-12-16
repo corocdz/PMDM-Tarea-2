@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!--LinearLayout: Contenedor vertical para los elementos de la cabecera.
+    - `background`: Fondo del color primario de la aplicación.
+    - `padding`: Relleno interno uniforme de 16dp.
+    - `gravity`: Centra los elementos horizontalmente.-->
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/splash_logo"/>
+
+    <!--ImageView: Muestra un logo en la cabecera.
+    - `layout_width` y `layout_height`: Tamaño fijo de 64x64dp.
+    - `src`: Imagen del logo, referenciado desde los recursos gráficos.-->
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!--TextView: Muestra el título de la cabecera.
+    - `text`: Nombre de la aplicación, definido en strings.xml.
+    - `textColor`: Color blanco para contraste con el fondo.
+    - `textSize`: Tamaño del texto definido en 18sp.-->
+</LinearLayout>
